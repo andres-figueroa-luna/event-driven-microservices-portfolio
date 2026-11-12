@@ -1,0 +1,7 @@
+info:
+  name: 1. Setup (Inventory)
+  type: folder
+  seq: 1
+
+request:
+  auth: inherit
