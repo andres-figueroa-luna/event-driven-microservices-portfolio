@@ -1,0 +1,6 @@
+[submodule "order-service"]
+	path = order-service
+	url = https://github.com/andres-figueroa-luna/order-service.git
+[submodule "inventory-service"]
+	path = inventory-service
+	url = https://github.com/andres-figueroa-luna/inventory-service.git
