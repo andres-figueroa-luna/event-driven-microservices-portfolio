@@ -11,7 +11,7 @@ services:
     ports:
       - "5433:5432"
     volumes:
-      - pgdata:/var/lib/postgresql/data
+      - pgdata-new:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U devuser -d order_db"]
       interval: 5s
@@ -82,7 +82,7 @@ services:
       - microservices-net
 
 volumes:
-  pgdata:
+  pgdata-new:
 
 networks:
   microservices-net:
